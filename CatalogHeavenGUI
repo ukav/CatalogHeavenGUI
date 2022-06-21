@@ -1,3 +1,7 @@
+--[[
+ This script isn't mine credit to RlawL
+]]
+
 -- Made by RlawL --
 
 local ps = game:GetService("Players")
