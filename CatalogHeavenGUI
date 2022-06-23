@@ -2,9 +2,435 @@
  This script isn't mine full credit to RlawL
 ]]
 
-_, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
+-- Made by RlawL --
 
+local ps = game:GetService("Players")
+local rs = game:GetService("RunService")
+local rst = game:GetService("ReplicatedStorage")
 
-,nil,nil;(function() _msec=(function(e,l,o)local H=l["آدئك؃كنحټنحض؃قڝ"];local R=o[e[(-115+0x2d7)]][e["؃دآنټدڪضدؠ؃ڪقؠدك"]];local i=(-0x3b+63)/(0x190/(0x112+(-0x57+13)))local x=(-0x7e+(277-(0x7c8e/(0x6bd6/129))))-(24-0x17)local y=o[e[(328-0xc9)]][e["سڪئددئدضنئنكقسحټ؃زؠ"]];local s=(84-(0x391/(0x69e/154)))+(103-0x65)local A=o[e[(672+-0x51)]][e["ددسڪحكزآئؠدنڪؠسؠ"]]local n=(0x2c/22)-(0xfa/(0xbf68/(447-0xfb)))local D=(-107+((0x135de/(0x23d-339))-0xe5))local c=(((37298-(-113+0x495d))/0x5a)/69)local w=((-191-((-0x167c+2833)/0x25))+0x73)local O=(0x66-(((77364-0x9722)/0x7a)-0xda))local t=((0x83-((0x8e30/175)-0x7d))+-45)local k=(0xbd/(0xf9-(225+(-0x33+12))))local U=(0x1f-((0x6736a/(0x7fbe/166))/0x4a))local u=(31-(((47239-0x5c6b)/180)-0x66))local M=(((0x63a808/((-23+0x167)+-106))/0xe5)+-0x7a)local h=((-0x65+(272+(-0x21d6/142)))/55)local b=(91-(((-1638528/0xfb)/136)+0x89))local _=(-0x32+(((0x16+-70)+11)+89))local N=((75+((0x31+-112)+10))+-18)local C=((-82-((0xc7-128)-0x59))+0x44)local j=(-0x36+(-123+((0x2db8e7/215)/77)))local S=(((0x100+(0x21+-67))-121)+-0x61)local L=((7582/(486-(317+-0x36)))-30)local g=(0x21c/(((0x1e3a1c4/7)/172)/195))local K=e[(0xa7d-1360)];local G=o[e[(0x6f2/(0x2f+-33))]][e["ڝدنټحڪآآؠآكضض"]];local Q=o[(function(e)return type(e):sub(1,1)..'\101\116'end)('سك؃قسئټڪ')..'\109\101'..('\116\97'or'ؠسټ؃ض؃جد')..e[(0x4bf-624)]];local f=o[e[(1234-0x283)]][e["نسسټڪضسدسجڪض"]];local m=(-0x10+18)-(((-69+0x271)+-0x68)/226)local v=((-72+(-0x24+132))/0xc)-(0x14a/165)local Y=o[e[(0xbf+-64)]][e["زجضڝآسڝنڝججضق"]];local l=function(l,e)return l..e end local p=(55-0x33)*((0xfc-(0xdd+-71))-98)local V=o[e["ضح؃جسضضئئدئئنآؠئزڪ"]];local r=(-105+0x6b)*((34560/(168/0x1c))/45)local J=(0x47e+-126)*(0x30/(5952/(14136/0x39)))local W=(0xc5-(0x4fdd/(326-0xb9)))local B=((181-((0x255a8/25)/0x28))-0x1a)*(0x1de/239)local P=o[e["كڪنجنجكنجسجسنڝ"]]or o[e[(0x4fe-687)]][e["كڪنجنجكنجسجسنڝ"]];local a=(((0x9cf7-20119)+-0x60)/78)local e=o[e["ؠدحس؃ټڝؠدآقئجڝحڝڝئ"]];local A=(function(a)local r,o=2,0x10 local l={j={},v={}}local d=-n local e=o+x while true do l[a:sub(e,(function()e=r+e return e-x end)())]=(function()d=d+n return d end)()if d==(p-n)then d=""o=m break end end local d=#a while e<d+x do l.v[o]=a:sub(e,(function()e=r+e return e-x end)())o=o+n if o%i==m then o=v f(l.j,(Y((l[l.v[v]]*p)+l[l.v[n]])))end end return A(l.j)end)("..:::MoonSec::..؃دحجئضسزقكنؠآټڪڝن؃كضئحدجڪئڪزقزضزحقڝكحؠڝكزدجټ؃ڪټڝآدحزكقدسقكڝضكآسزجق؃كزئڪئكدټ؃نؠ؃زدڝكدسحجج؃ئټضحسآآقق؃دڝ؃ؠؠقآضټئحؠسحزكد؃كزضڝټڪضؠسقزضقحكڝنټجټآزدئئ؃ڝڪ؃ؠدڪنسنڪنضزټڝضآض؃جڝ؃نټؠنآسق؃ئزجدزضټحڪسزجض؃ضټسنزټزنزج؃ڪؠؠآقټئڝڪئضئآآج؃ندحضقكڝؠحنڝئضكټزجڪسك؃ككڪددقجټؠس؃ټدضسحكڝسآزكقزدټڪضټآقجنزڪئڝح؃ڝدآحكجك؃زضآ؃ڪآنقزكئنح؃كقدضزقڝزسټټح؃ڝؠؠحڪسكدئزدټقئڪنؠسدؠكئنكنحجحقدزڪحؠجقئڝنضڝسقك؃نضزقڝضدئټټنڪزڝجئآټئزؠس؃ټنق؃ققټسئنڝزنئؠدآدجق؃حئسڪدكڝدقټؠ؃زضئسدزټڪض؃ټ؃ضقنكددكدحئسئ؃ټسڝڪؠؠزقضضسحزڝقآكدنؠآزآ؃ڝڪضنڝق؃ضدحنكؠدټقحڝئز؃ڪؠ؃كؠ؃زؠئآدټآڝدؠزكدضڝكآئس؃نقزسئزدقڪڪزحټټؠنجحڝڪآڝن؃قسڪسضنټزئجقنضقحقڝكآن؃ؠڝنئج؃ڪټڝؠ؃ڪجؠآققئندضڝضآزجآ؃كټننؠټڪقآحڪڪقننكضسحجج؃ئجسؠټضزټڝدآڪنؠؠقآضټحڪڝڝدئڪدټحك؃دئڪضؠسڪڪؠټق؃جڝ؃ضقڝئز؃ند؃آحكؠدضددټسنئضؠحؠټؠؠدزححزڝزنؠزنجآ؃ضؠكقضئڪآؠآجكحضجټقڪدكنضجحؠنززڪضڝجضڪضؠجزكجئټقؠقززئڝ؃دآټسكجنڝدكنكؠضحدټڪضسكئ؃حدڝزنززضجؠڝسكنزنجكددآجقڝحؠڝآؠجدڪجآ؃سټزنقسح؃دزئڪجحټؠڪئ؃ڪن؃ؠټحنجزئئضؠقجڝنئدضكن؃نز؃ڪجسحسڝئجددڪحؠجقئضضسسئك؃قآكزئجؠ؃آټټؠؠجدكس؃آقڪ؃حزجټټضضآدكئنټزنئؠدآئڪڝ؃زسڝحك؃؃حټجنئزضئسدزڝقڝكزحسدحآڝټآڪڝټئس؃ڪڝنؠ؃نڪڝكضسحزڝقآؠنڝسؠجآ؃ټڪدنڝق؃ضدجئجسآئكضسسضض؃قټكننزؠئآدټڪڪؠڝك؃سدجح؃جټئنضزسئقدقڪكؠنقؠضآجڝڝڪآڝندزدضجدجڪئؠضكقضزحقڝنآننئسآجټ؃ڪ؃ضؠ؃قدضجحجڝټآضكزسزئض؃كټڪؠڪزآئټدڪڝقآ؃كحسحجزدزټضنسززضحدكڪؠؠؠقآسڝحڪڝڝټ؃نحزحئجدئڪزآؠقزضكحكڝآآؠكآسټض؃جڝڪ؃ؠحقحسححئڝضآسكزز؃جك؃ؠټؠنآزټئڪدڝ؃ح؃جكحسضجئ؃ڝټسنززقئؠحڝڪؠؠڝقټسححڝ؃؃ټدنحنحئئدكڪسؠقققضكحنڝؠآآكټزججڝدجڪدؠحقجسسحضڝسآټكققنجن؃ؠټآنټزڪئڝحضڝدآئكجسسجض؃آټزنقزټئنززڪآؠڪقڪسئج؃؃ضڪضنجزئئضزحڪزؠكقكضنسكڝآټحكڪزحئ؃ددڪحآضؠدضضحآڝزټڪككسنجؠدڪټټنڪقسض؃ج؃ڝحآجكئززجس؃زڪ؃نككحئؠدآڪټټ؃قڝس؃جن؃حڝزنئزضئسحكڪقؠككئضؠئڝڝټآڪكڝز؃ئددحڪنؠئقڝضسحكڝقآككنسؠئح؃ټڪئنڝقزضدححڝجآئكنسسجك؃قټؠننقدئآدټڝحؠڝڪآسدجج؃جټكنضزنضندقڪكؠنڪزضآحڪڝڪآڝټڪزدئزدجڪزؠضقسضزجنحسآنندسآضج؃ڪټڝؠ؃كجضححجڝؠآضنضسزجق؃كڪآنؠزآضضدڪڝسآ؃كدسحئض؃ئټضنڝززضقدكڪنؠؠكڪضټحڪ؃كټ؃نضزحئجدئڪضؠسقزضڝحك؃ئآؠكڪسټجڪ؃ڝڪ؃ؠزقحضكحئڝآآسكزسقجك؃ڝټؠنڪزټض؃دڝڝسآدكحسزجئسدټسنقزقئڪدنڪڝآڝقټضڪحڝضآټدنجزجئئضجڪسؠآققضآحنڝؠآآكڝقججڝدسڪدؠحقجضئحضڝسڪڪكقسڪجن؃ټټآنڝزڪضضئجڝدآزكجكضجض؃زټزنكزكئڪحڪڪآؠټقڪك؃ج؃؃حټحنزقزئضدسڪزدجقكضؠحؠڝآ؃ؠكڪزئئ؃دئڪحؠجقئسزحنڝزآڪككسڝجؠ؃آټټآ؃زڝض؃حقڝحټقكئسضجسدكټقنكقحئؠججڪټؠڪقڝس؃جد؃حټننئزآئسدڝڪقؠڝقنضؠججڝټ؃ؠكڝزدئددجڪجؠقكقضسحزڝق؃سكنسآجآدڝدننڝقزضدجدڝجآئكضزقزك؃قڪدننكضئآدټڪڪټدټحسدجؠ؃جټزنضزسئزحنحؠؠنكضضآئټڝڪآڝن؃زدضڪدجڪؠؠضك؃ضزحنڝكآنټدسآئج؃ڪڪضؠ؃ققضححكدزآضكآسززك؃كټؠنؠزټئټحح؃حآ؃كدسحزئ؃ئټسنسقكقئدكڝ؃ؠؠكڝضټحڪڝڝټ؃آقزحئقدئڪزؠسقكضقحڝ؃؃آؠن؃سټكن؃ڝڪدؠدقزضجحق؃قآسكزسقكض؃نټآنآزټقآدڝڝضآدكضسججئ؃ضڪقټئزقئڝدنڝ؃ؠآقټضڪئد؃؃ټدنكزجضجدضڪسؠزكنضكحن؃جآآؠسسڪجڝد؃ڝجؠحقجضټحض؃ئآزكقسكئآ؃ؠټآؠززڪسنح؃ڝدآحكجسئجض؃ټټزؠحزكئآدؠڪآؠټقڪسضج؃؃زټحننزئئضدسڪزؠټقكضآحؠڝڪآټنئسڝئ؃دضڪح؃ڝقئضسحسڝآآقكټزټجؠ؃آټټ؃نزڝضدحدڝح؃دكئسنجس؃نټقنكزنضټسئڪټآئقڝسضجد؃حټجؠسزضئسدڪڪقآققنضؠحآ؃ڝآڪكڝزقئدجئڪجؠئقضسقحزڝقټحكنزججآ؃ټټڪآدق؃ضدحآڝجټسكضسسجز؃قټكننقحئآحزڪڪآدك؃سدجح؃جټننضزآئزدڝڪكؠنقؠضآجحڝڪټدن؃زجئحدجڪئؠضقنضزحټڝكآنكؠز؃جټ؃ڪټڝؠ؃ټټضححئڝئآضؠقسزجآ؃كټننؠزآئټدڪڝزآ؃كضسحجئ؃ئټضنسزټسؠدكڪڪؠؠڪؠضټحڝڝڝټدندزسضسدئڪضؠسڪسضقحنڝنآڝنڝسټجڪ؃ڝئزؠدقجضجضئدڝآسكآسقجڝ؃نڝننآقڝزڪدڝڝضآدكجسججئ؃ضټسؠكزقئكدنڪآؠآقټضڪئدجآټدنززجئسدضڪسؠزقڪزټحن؃دآآكڪسڪئ؃د؃ڪحؠحقجقسحضڝسآزكنسكجن؃ؠټآټؠزڪضئح؃ڝجآحكئسئجكدكټزنقزكنآدؠڪټؠټن؃كؠج؃؃سټحآئزئئضدسڝكڝدقكس؃حؠ؃زآټكڪسڝس؃ددڪحؠكقئضؠحسدئآقنؠسنجؠدئټټؠټزڝض؃حد؃ئآجكئسڪجسحجټقنكزنضټدآڪټآققڝزئجد؃حټجؠسزضئسححڪقآضقنضؠحآڝټآڪكڝزقئددټڪجؠسقضضسحزڝقټحكنسآجآ؃ټټڪنڝق؃ضدحقڝجآټكضسسجز؃قټكننق؃ئآدټڪڪآدك؃سدجڝ؃جټكنضززئزدكڪكؠنكټضآحټڝڪټ؃ن؃زدئحدقڪئؠضقسضزحقڝكآنكؠسټجټ؃ڪټڝؠ؃كجضححجڝئآسكسسزجق؃كټننؠزآئټدڝڪڝآ؃كدآ؃جق؃ئټضنسققڝټسزټڝضقك؃ضټحڪڝڝڪحټټزحئجدئڪسؠسقزضقحكض؃آؠكټسټجڪ؃ڝڪ؃ؠدقحقدحئڝضآسككسقجن؃نټؠؠڪزټئڪدڝڝدآدكحسججئ؃ضټسنززؠضددنڪؠؠآئقضڪحڝ؃؃ټدنحزججئضئدسآجققضكحنڝدسجڪجسؠؠآحئنئجزززح؃قحڝڪضجكؠسكجن؃ؠڝ؃سضآضټؠحئڝدآحكجسزڝدضڝآج؃قزكئندؠڪآڪټكحضڝج؃؃دټسئڪؠنجڪڝڝڪزؠققكضنحؠڝآجټټڪآټئسددڪحؠجكق؃آزټڪزضڝآؠقؠجؠ؃آټټآ؃ؠؠض؃حئڝحآضكئسضجس؃ز؃ڪنكزټئؠدڝڪټؠڝقڝسسقئ؃حټسنئزآئسدقڪقؠكقنضڝجڝڝټآڪكڝززئددجڪجآسآدضسحنڝقآؠكنسؠجآ؃ټدئنڝقجضدحضڝجآضكضسسئؠ؃قټآننزټئآدټڪڪټدټحسدجض؃جټضنضزسئزحنڝنؠنقڝضآجحڝڪآڝن؃قجئحدجڪكؠضقزضزحقڝكآنكؠسآئج؃ڪټڝؠ؃قدضحجضڝئآضكټسزجك؃كټننؠق؃ئټدڪڝئآ؃نڪسحجئ؃ئټضڪئززضددكڪڪؠؠقآضټئ؃جڪټ؃نؠزحئؠدئڪضؠسنزضقحك؃ئآؠنسسټئئ؃ڝ؃؃ؠدقحضڪحئڝضآسكنسقجك؃نټؠؠكزټضسدڝڝ؃آدكحسججئدجټسنڝزقئكدنڪؠؠآقټسكحڝ؃ڪټدنئزجسئدضڪسآحققسئحنڝڝآآكټسڪجڝدؠڪدؠئقجضسحضڝسآزكقزئجندسټآؠ؃زڪسڝح؃ڝدآټكجسڝجض؃ټټزنقزكئنحضڪآؠڝقڪسدج؃؃دټحنجزقئضدڝڪزآحقكضنحؠڝآټسكڪزحئ؃دجڪحټجقئضضحكڝزټدككزدجؠد؃ڪسنڪقئض؃حڪڝحآئكئزززح؃زټټنكزآئؠدآڪټؠڪآآس؃جس؃حټئنئزكئسدزڝآؠكقڪضؠحڪڝټآڪكڝز؃ضجدحڪجؠئقسضسحزڝقآككنسؠجآ؃ڝڪ؃نڝق؃ضدقدڝجآئكضسسجز؃قټكننزټضددټڪڪؠڝند؃ززقڝسسكآضزسئزدقڝؠڝآقؠضڪحټڝڝآڝن؃زدضئضضڪئؠققسضقحقڝكآننټنقجټدحټڝؠحقدضححجڝنڪككسسآجق؃كټننآزآضددڪڪڝڝحكدسحجج؃سټضنسززئقئؠڪنؠؠقآضټحڪڝڝټ؃ندنئئجدئڪضؠكقزضقحكڝنڝټكآسټجڪد؃ڪ؃ؠدقحضجضحڝضآنكزسنجك؃ؠټؠؠحؠڪئڪدڝڝ؃آټكحسئجئ؃سټسنؠقؠئكدنڪؠآققټضڝحڝ؃ئڪئنحزجئئجدڪسؠقققضڝسؠڝؠآآكټزټجڝددڪدؠجقجضقجقڝسآزكقزقجن؃آټآؠدكدئڝح؃ڝدټڪكجسضجض؃آدقنقزنئنحټڪآؠڪقڪضڝج؃؃ضڪضنجزئئضحقڪزؠكقكضڪجڪڝآآټكڪقؠئ؃دحڪحؠجآئضضحنڝزآنككسټجؠ؃آدټنڪقئض؃حئڝحآضكئسؠزز؃زټآنككدئؠدټڪټآجقڝسئئئ؃حټجنئقآئسدقڪقؠټكټضؠحآڝټڪنكڝزدئددححجؠئقكضسحكڝقآآكنسؠزآ؃ټڪجنڝقجضدحئڝجآننټسسجؠ؃قڝضننزآئآححڪڪآجنجسدجح؃جڝ؃نضززئزدآڝآؠنقؠضآئنڝڪټ؃ن؃زدسئدجڪقؠضقسضزحقڝكآننجسآئد؃ڪڪ؃ؠ؃قدضححج؃قآضكنسزجن؃كټننؠزآضڝدڪڪڝآ؃كحسحجج؃ئټسنسززئقدكڪنؠؠقآضټجضڝڝټ؃ندزحكضدئڪضؠسققضقحكڝنآؠكآسټجڪ؃ڝڪ؃ؠدقحضجحئڝضآسكزسقجك؃نټؠنآزټئڪدڝڝ؃آدكضسججئ؃ضټسنززقئكدنڪؠؠآقټضڪحڝ؃؃ټدنحزجئسدضڪسؠزققضكحنڝؠآآكڪسڪجڝد؃ڪدؠحقجضئحسڝزآزكقسكآسد؃ټآنټزڪس؃آسجزؠضحقسآجض؃سټزنققدئندآڪآؠټقڪضڝج؃دج؃ڪنجزسئضدزڪزؠققكس؃ئڝڝآټ؃كڪسڝئ؃دحڪحؠضقئضضضقڝزآقككسؠجؠ؃آټټنڪؠدض؃حدڝحآجكئسضجس؃ز؃سنكزآئؠدڪڪټؠڝقڝس؃ئض؃حټئنئززئسدزڪقؠككآضؠحآڝټآڝكڝز؃ئددجڪجؠئقضضسحؠڝقآككنكؠئق؃ټټڪنڝققڝكزؠټټضآآڪئسؠندنكندجقض؃سححڪڪؠڝك؃سسټنئنټ؃جض؃حضددقڪكؠنكضدحزڪڪقسئټنضدآسجسكآسڝكحضزحقڝكټئضدؠ؃ج؃كس؃ټقكڝڝزسڪؠضؠآدنسسزجق؃كڪآڪززآئټدڪڝحآ؃كدسحجكحزټضنسززضئدكڪؠؠؠقټضټجحدحټ؃ندزحئڝدئڪسؠسكككئحكڝنآؠن؃سټجڪ؃ڝڪس؃ئقحضجحئڝآآسكقسقجك؃نټڝؠڝزټئڪدڝڝزآدكجسججقدقټسنززقضضدنڪآؠآكڝكنحڝ؃؃ټدنجزجئئدضڪآټنققضكحن؃زآآكڪسڪئ؃د؃ڪضآضقجضئحض؃حآزككسكئآئزټآنټزڪضدح؃ڝدآحؠجقآجض؃سټزنقزكئؠدؠڪآدجقڪس؃ج؃؃حټحنجزئئضجټڪزؠققكضآحؠڝڪآټكڪن؃ئ؃ددڪحؠجقئضضحسڝزټنككسنجؠ؃ټټټنڪزڝض؃حدڝحآج");local f=(-106+0x99)local d=96 local o=n;local e={}e={[(-114+0x73)]=function()local e,l,n,x=y(A,o,o+s);o=o+B;d=(d+(f*B))%a;return(((x+d-(f)+r*(B*i))%r)*((i*J)^i))+(((n+d-(f*i)+r*(i^s))%a)*(r*a))+(((l+d-(f*s)+J)%a)*r)+((e+d-(f*B)+J)%a);end,[(-104+0x6a)]=function(e,e,e)local e=y(A,o,o);o=o+x;d=(d+(f))%a;return((e+d-(f)+J)%r);end,[(-0x63+102)]=function()local l,e=y(A,o,o+i);d=(d+(f*i))%a;o=o+i;return(((e+d-(f)+r*(i*B))%r)*a)+((l+d-(f*i)+a*(i^s))%r);end,[(-0x74+120)]=function(l,e,o)if o then local e=(l/i^(e-n))%i^((o-x)-(e-n)+x);return e-e%n;else local e=i^(e-x);return(l%(e+e)>=e)and n or v;end;end,[((-0x64+1365)/0xfd)]=function()local l=e[(0x37/(-0x77+174))]();local o=e[(125/0x7d)]();local c=n;local d=(e[(42-0x26)](o,x,p+B)*(i^(p*i)))+l;local l=e[((-4445/0x7f)+0x27)](o,21,31);local e=((-n)^e[(109-0x69)](o,32));if(l==v)then if(d==m)then return e*v;else l=x;c=m;end;elseif(l==(r*(i^s))-x)then return(d==v)and(e*(x/m))or(e*(v/m));end;return R(e,l-((a*(B))-n))*(c+(d/(i^W)));end,[(0x56+-80)]=function(l,i,i)local i;if(not l)then l=e[(-0x73+(0x20a0/72))]();if(l==v)then return'';end;end;i=G(A,o,o+l-n);o=o+l;local e=''for l=x,#i do e=K(e,Y((y(G(i,l,l))+d)%a))d=(d+f)%r end return e;end}local function G(...)return{...},V('#',...)end local function A()local c={};local h={};local l={};local U={c,h,nil,l};local o={}local k=(-0x11+111)local d={[(0x25/37)]=(function(l)return not(#l==e[(0xc6/99)]())end),[(82+-0x4f)]=(function(l)return e[(1215/0xf3)]()end),[(130+-0x7e)]=(function(l)return e[(28+-0x16)]()end),[(-0x76+120)]=(function(l)local d=e[(-82+0x58)]()local l=''local e=1 for o=1,#d do e=(e+k)%a l=K(l,Y((y(d:sub(o,o))+e)%r))end return l end)};U[3]=e[(0x86/67)]();local l=e[((0xf9-174)-74)]()for l=1,l do local e=e[(-16+(0x34+-34))]();local n;local e=d[e%(6348/0x8a)];o[l]=e and e({});end;for r=1,e[(0x2e-45)]()do local l=e[(0xd6/107)]();if(e[(844/0xd3)](l,n,x)==m)then local h=e[(992/0xf8)](l,i,s);local d=e[(119-0x73)](l,B,i+B);local l={e[(204/0x44)](),e[(108-0x69)](),nil,nil};local a={[(0x0/196)]=function()l[D]=e[(0x2eb/249)]();l[S]=e[(-0x1c+31)]();end,[(0x28/40)]=function()l[O]=e[(0xa0/160)]();end,[(109-0x6b)]=function()l[D]=e[((118+-0x61)-20)]()-(i^p)end,[(-123+0x7e)]=function()l[w]=e[(0x39+-56)]()-(i^p)l[C]=e[(249/0x53)]();end};a[h]();if(e[(0x348/210)](d,x,n)==x)then l[b]=o[l[_]]end if(e[(0x45+-65)](d,i,i)==n)then l[O]=o[l[w]]end if(e[(-0x65+105)](d,s,s)==x)then l[S]=o[l[L]]end c[r]=l;end end;for e=x,e[(0xe6/230)]()do h[e-x]=A();end;return U;end;local function v(e,B,f)local o=e[i];local a=e[s];local e=e[n];return(function(...)local J={...};local y=G local d={};local r=e;local m={};local p=o;local A=V('#',...)-x;local Y={};local a=a;local e=n e*=-1 local s=e;local o=n;for e=0,A do if(e>=a)then Y[e-a]=J[e+x];else d[e]=J[e+n];end;end;local e=A-a+n local e;local a;while true do e=r[o];a=e[(0x5c-91)];l=(1268310)while(0xd2-168)>=a do l-= l l=(3448440)while a<=(-121+0x8d)do l-= l l=(3225258)while(140-0x83)>=a do l-= l l=(5675908)while a<=(-0x34+56)do l-= l l=(1227132)while(-0x24+37)>=a do l-= l l=(8155455)while(27-0x1b)<a do l-= l local e={d,e};e[x][e[i][b]]=e[n][e[i][g]]+e[x][e[i][c]];break end while(l)/((0x1dcd-3834))==2149 do local l=e[u];local n=d[l]local a=d[l+2];if(a>0)then if(n>d[l+1])then o=e[t];else d[l+3]=n;end elseif(n<d[l+1])then o=e[w];else d[l+3]=n;end break end;break;end while(l)/((1644-0x34b))==1532 do l=(1067572)while(92-0x5a)>=a do l-= l local e={d,e};e[x][e[i][b]]=e[n][e[i][N]]+e[x][e[i][w]];break;end while(l)/((0x1430-2614))==418 do l=(3522910)while(-0x2e+49)<a do l-= l local l;local a;d[e[u]]=f[e[k]];o=o+n;e=r[o];d[e[M]]=e[c];o=o+n;e=r[o];d[e[_]]=e[w];o=o+n;e=r[o];a=e[t];l=d[a]for e=a+1,e[j]do l=l..d[e];end;d[e[M]]=l;o=o+n;e=r[o];if not d[e[_]]then o=o+x;else o=e[k];end;break end while(l)/((3927-0x7b4))==1802 do d[e[u]]=v(p[e[t]],nil,f);break end;break;end break;end break;end while(l)/((1849+-0x3f))==3178 do l=(10874752)while a<=((0x71c-956)/144)do l-= l l=(8401640)while a>(135/0x1b)do l-= l local l=d[e[C]];if not l then o=o+x;else d[e[U]]=l;o=e[c];end;break end while(l)/((465080/0x9a))==2782 do d[e[_]]=d[e[c]]%e[C];break end;break;end while 3206==(l)/((6853-0xd85))do l=(938180)while(0x24c/84)>=a do l-= l local l=e[b];local o=d[e[O]];d[l+1]=o;d[l]=o[e[g]];break;end while(l)/((1289-0x2a7))==1538 do l=(1561830)while a>(37-0x1d)do l-= l local l=e[b];local a=d[l+2];local n=d[l]+a;d[l]=n;if(a>0)then if(n<=d[l+1])then o=e[w];d[l+3]=n;end elseif(n>=d[l+1])then o=e[c];d[l+3]=n;end break end while(l)/((1661-0x367))==1977 do d[e[b]]=(e[O]~=0);break end;break;end break;end break;end break;end while 2322==(l)/((0xb21-1460))do l=(1918948)while(137-0x7b)>=a do l-= l l=(15546384)while(0x67-92)>=a do l-= l l=(1701126)while a>(0x28-30)do l-= l d[e[_]]=e[O];break end while 2898==(l)/((147924/(0x25a-350)))do d[e[h]]=#d[e[D]];break end;break;end while(l)/((309624/0x4c))==3816 do l=(4445210)while a<=(122+-0x6e)do l-= l local e=e[u]d[e]=d[e](P(d,e+n,s))break;end while(l)/((2630+-0x64))==1757 do l=(206076)while a>(40+-0x1b)do l-= l d[e[b]]=#d[e[O]];break end while 3963==(l)/((-0x67+155))do d[e[u]]();break end;break;end break;end break;end while 593==(l)/((0x17b38/30))do l=(8352179)while a<=(151-(-0x2c+178))do l-= l l=(12370176)while a<=(148-0x85)do l-= l local l=e[_]local o,e=y(d[l](P(d,l+1,e[O])))s=e+l-1 local e=0;for l=l,s do e=e+n;d[l]=o[e];end;break;end while(l)/((524160/0x8c))==3304 do l=(3791488)while a>(3792/0xed)do l-= l local x;local a;local l;d[e[u]]=e[c];o=o+n;e=r[o];d[e[U]]=e[O];o=o+n;e=r[o];d[e[b]]=#d[e[w]];o=o+n;e=r[o];d[e[b]]=e[c];o=o+n;e=r[o];l=e[u];a=d[l]x=d[l+2];if(x>0)then if(a>d[l+1])then o=e[c];else d[l+3]=a;end elseif(a<d[l+1])then o=e[c];else d[l+3]=a;end break end while 1559==(l)/((0x99e+-30))do d[e[_]]={};break end;break;end break;end while 2683==(l)/((0x290a6/54))do l=(7093970)while a<=((139+-0x3e)+-59)do l-= l do return end;break;end while 1970==(l)/((432120/0x78))do l=(2484120)while a>(88-0x45)do l-= l do return d[e[U]]end break end while 1304==(l)/((-0x2b+1948))do o=e[c];break end;break;end break;end break;end break;end break;end while 3708==(l)/((-73+0x3eb))do l=(6820510)while(119+-0x58)>=a do l-= l l=(8903512)while(0x802/82)>=a do l-= l l=(3222720)while(0x1524/246)>=a do l-= l l=(270400)while((276/0x3)+-71)<a do l-= l d[e[b]]=d[e[O]][e[C]];break end while(l)/((0x144+-64))==1040 do d[e[h]]=v(p[e[w]],nil,f);break end;break;end while(l)/((4519-0x8e9))==1440 do l=(2517400)while(0x7ba/86)>=a do l-= l if(d[e[U]]~=d[e[L]])then o=o+x;else o=e[O];end;break;end while 1535==(l)/((0xcf2-1674))do l=(166761)while a>(0x5c-68)do l-= l local a;local l;d[e[U]]=f[e[c]];o=o+n;e=r[o];d[e[M]]=f[e[t]];o=o+n;e=r[o];d[e[b]]=e[D];o=o+n;e=r[o];d[e[b]]=e[t];o=o+n;e=r[o];d[e[_]]=e[w];o=o+n;e=r[o];l=e[h]d[l]=d[l](P(d,l+n,e[w]))o=o+n;e=r[o];d[e[h]]=d[e[c]][d[e[j]]];o=o+n;e=r[o];l=e[h]d[l]=d[l](d[l+x])o=o+n;e=r[o];a=d[e[N]];if not a then o=o+x;else d[e[U]]=a;o=e[c];end;break end while(l)/((0x91-82))==2647 do if(d[e[u]]==d[e[N]])then o=o+x;else o=e[c];end;break end;break;end break;end break;end while 3851==(l)/((184960/0x50))do l=(1270438)while(3976/(0x159-203))>=a do l-= l l=(2384520)while(0x1d4/18)>=a do l-= l local e=e[U]d[e]=d[e](d[e+x])break;end while(l)/((0x771-975))==2564 do l=(1572675)while(0x81f/77)<a do l-= l local l=e[_]d[l]=d[l](P(d,l+n,e[k]))break end while(l)/((-0x56+1699))==975 do local a;local l;d[e[u]]=f[e[O]];o=o+n;e=r[o];d[e[M]]=f[e[t]];o=o+n;e=r[o];d[e[h]]=e[k];o=o+n;e=r[o];d[e[u]]=e[c];o=o+n;e=r[o];d[e[b]]=e[k];o=o+n;e=r[o];l=e[U]d[l]=d[l](P(d,l+n,e[O]))o=o+n;e=r[o];d[e[_]]=d[e[w]][d[e[N]]];o=o+n;e=r[o];l=e[u]d[l]=d[l](d[l+x])o=o+n;e=r[o];a=d[e[S]];if not a then o=o+x;else d[e[U]]=a;o=e[c];end;break end;break;end break;end while(l)/((80941/0xd9))==3406 do l=(23360)while(84-0x37)>=a do l-= l d[e[U]]=(e[O]~=0);o=o+x;break;end while(l)/((173740/0xee))==32 do l=(1332667)while(0x75-(0x3bd/11))<a do l-= l do return end;break end while(l)/((0x187c-3147))==427 do o=e[w];break end;break;end break;end break;end break;end while(l)/((0x98756/154))==1682 do l=(54791)while(6768/0xbc)>=a do l-= l l=(1211820)while a<=(-29+0x3e)do l-= l l=(122240)while a>(173-0x8d)do l-= l d[e[M]][d[e[w]]]=d[e[j]];break end while(l)/(((-61+0x9871)/0x33))==160 do local o=e[u];local l=d[e[c]];d[o+1]=l;d[o]=l[e[L]];break end;break;end while(l)/(((0x7a468/152)+-106))==380 do l=(267036)while a<=(130-0x60)do l-= l d[e[M]]=(e[D]~=0);o=o+x;break;end while(l)/((0x2a6-389))==924 do l=(4316070)while a>(-0x59+124)do l-= l local a=p[e[w]];local n;local l={};n=Q({},{__index=function(o,e)local e=l[e];return e[1][e[2]];end,__newindex=function(d,e,o)local e=l[e]e[1][e[2]]=o;end;});for n=1,e[S]do o=o+x;local e=r[o];if e[(143/0x8f)]==50 then l[n-1]={d,e[O]};else l[n-1]={B,e[w]};end;m[#m+1]=l;end;d[e[b]]=v(a,n,f);break end while 3190==(l)/((0xaf9-1456))do if not d[e[_]]then o=o+x;else o=e[k];end;break end;break;end break;end break;end while(l)/((-0x20+3255))==17 do l=(4035524)while(149-0x6e)>=a do l-= l l=(10268580)while(84+-0x2f)>=a do l-= l local e={d,e};e[n][e[i][M]]=e[i][C]+e[i][k];break;end while(l)/((159450/(600/0xc)))==3220 do l=(3196356)while a>(3458/(0x111-182))do l-= l local e=e[_]d[e]=d[e](d[e+x])break end while 939==(l)/((-65+0xd8d))do if not d[e[U]]then o=o+x;else o=e[t];end;break end;break;end break;end while(l)/((7440-0xec2))==1102 do l=(1926288)while a<=((0x1f6-310)-0x98)do l-= l d[e[U]]=d[e[t]][e[N]];break;end while(l)/((182182/0x8f))==1512 do l=(2243178)while a>(0x95-108)do l-= l local e={d,e};e[n][e[i][h]]=e[i][L]+e[i][c];break end while(l)/((0x12f0-2454))==937 do d[e[M]]();break end;break;end break;end break;end break;end break;end break;end while(l)/(((0x2f+-115)+0x2bb))==2010 do l=(8260585)while a<=(0x2bc0/175)do l-= l l=(2115726)while(194-0x8d)>=a do l-= l l=(32824)while a<=(0xd8-169)do l-= l l=(3195940)while a<=(0x26ac/(33525/0x95))do l-= l l=(401646)while(132-0x59)<a do l-= l local e=e[h]d[e](d[e+x])break end while(l)/((0x2afc/14))==511 do f[e[t]]=d[e[h]];break end;break;end while 995==(l)/((-0x24+3248))do l=(608391)while a<=(0x29a9/237)do l-= l local a;local l;d[e[h]]=f[e[t]];o=o+n;e=r[o];d[e[b]]=f[e[O]];o=o+n;e=r[o];d[e[h]]=e[t];o=o+n;e=r[o];d[e[h]]=e[O];o=o+n;e=r[o];d[e[M]]=e[c];o=o+n;e=r[o];l=e[M]d[l]=d[l](P(d,l+n,e[t]))o=o+n;e=r[o];d[e[u]]=d[e[D]][d[e[g]]];o=o+n;e=r[o];l=e[U]d[l]=d[l](d[l+x])o=o+n;e=r[o];a=d[e[S]];if not a then o=o+x;else d[e[u]]=a;o=e[O];end;break;end while 2349==(l)/((-70+0x149))do l=(657381)while a>(6394/0x8b)do l-= l local a;local l;d[e[U]]=(e[t]~=0);o=o+n;e=r[o];d[e[M]]=d[e[t]];o=o+n;e=r[o];d[e[u]]=f[e[k]];o=o+n;e=r[o];l=e[h]d[l]=d[l](d[l+x])o=o+n;e=r[o];a=d[e[j]];if not a then o=o+x;else d[e[M]]=a;o=e[w];end;break end while 361==(l)/(((0x55ba4/181)+-0x77))do local e=e[_]d[e](d[e+x])break end;break;end break;end break;end while 373==(l)/((-39+0x7f))do l=(4508048)while a<=(6650/0x85)do l-= l l=(4351600)while(175-0x7f)>=a do l-= l f[e[w]]=d[e[M]];break;end while 3956==(l)/((0x481+-53))do l=(4814278)while(4116/0x54)<a do l-= l d[e[M]]=d[e[k]];break end while 2429==(l)/(((8970532/0x3e)/0x49))do B[e[c]]=d[e[b]];break end;break;end break;end while(l)/((0x4b0+-88))==4054 do l=(3396222)while(9129/0xb3)>=a do l-= l local o=e[D];local l=d[o]for e=o+1,e[S]do l=l..d[e];end;d[e[b]]=l;break;end while 2943==(l)/((2337-0x49f))do l=(10036392)while(6708/0x81)<a do l-= l d[e[_]]=d[e[O]]-d[e[g]];break end while(l)/((-18+0xd9e))==2894 do local o=e[w];local l=d[o]for e=o+1,e[S]do l=l..d[e];end;d[e[b]]=l;break end;break;end break;end break;end break;end while 2546==(l)/((-36+0x363))do l=(8461974)while a<=((31524/0xde)-0x54)do l-= l l=(4270983)while(5775/0x69)>=a do l-= l l=(2023680)while(-0x61+151)<a do l-= l local l=e[_]local o,e=y(d[l](P(d,l+1,e[O])))s=e+l-1 local e=0;for l=l,s do e=e+n;d[l]=o[e];end;break end while(l)/((-0x47+1159))==1860 do d[e[_]]=d[e[k]][d[e[S]]];break end;break;end while 2221==(l)/((115380/(0x3390/220)))do l=(1645438)while a<=(0x2d48/207)do l-= l do return d[e[U]]end break;end while(l)/((-0x66+1736))==1007 do l=(214659)while a>(-46+0x67)do l-= l local l=d[e[N]];if not l then o=o+x;else d[e[b]]=l;o=e[t];end;break end while 207==(l)/((0x884-1143))do local a;local i,b;local x;local l;d[e[M]]=f[e[c]];o=o+n;e=r[o];l=e[_];x=d[e[w]];d[l+1]=x;d[l]=x[e[C]];o=o+n;e=r[o];d[e[U]]=f[e[c]];o=o+n;e=r[o];d[e[_]]=e[D];o=o+n;e=r[o];d[e[U]]=e[c];o=o+n;e=r[o];d[e[M]]=e[D];o=o+n;e=r[o];l=e[M]d[l]=d[l](P(d,l+n,e[c]))o=o+n;e=r[o];d[e[h]]=(e[c]~=0);o=o+n;e=r[o];l=e[U]i,b=y(d[l](P(d,l+1,e[O])))s=b+l-1 a=0;for e=l,s do a=a+n;d[e]=i[a];end;o=o+n;e=r[o];l=e[_]d[l]=d[l](P(d,l+n,s))break end;break;end break;end break;end while 2433==(l)/((0x40888/76))do l=(2894080)while(179-0x76)>=a do l-= l l=(4475900)while a<=(0xc5-138)do l-= l d[e[b]]=d[e[k]][d[e[N]]];break;end while(l)/((59800/(2530/0x37)))==3443 do l=(3746250)while(0xb0+-116)<a do l-= l d[e[M]][d[e[D]]]=d[e[j]];break end while(l)/((-0x5d+(236652/0xa4)))==2775 do d[e[b]]=f[e[k]];break end;break;end break;end while(l)/((0x47e+-86))==2720 do l=(3831344)while(187+-0x7d)>=a do l-= l d[e[U]]=d[e[c]];break;end while(l)/((0x20240/136))==3958 do l=(6625212)while a>(245-0xb6)do l-= l d[e[h]]=d[e[w]]-d[e[N]];break end while(l)/((-28+0xdc6))==1894 do local u;local a;local O;local l;d[e[b]]=f[e[k]];o=o+n;e=r[o];d[e[h]]=d[e[k]][e[S]];o=o+n;e=r[o];l=e[_];O=d[e[w]];d[l+1]=O;d[l]=O[e[C]];o=o+n;e=r[o];d[e[b]]=d[e[c]];o=o+n;e=r[o];d[e[M]]=d[e[t]];o=o+n;e=r[o];l=e[b]d[l]=d[l](P(d,l+n,e[c]))o=o+n;e=r[o];l=e[h];O=d[e[k]];d[l+1]=O;d[l]=O[e[L]];o=o+n;e=r[o];l=e[h]d[l]=d[l](d[l+x])o=o+n;e=r[o];a={d,e};a[x][a[i][_]]=a[n][a[i][N]]+a[x][a[i][t]];o=o+n;e=r[o];d[e[b]]=d[e[k]]%e[S];o=o+n;e=r[o];l=e[_]d[l]=d[l](d[l+x])o=o+n;e=r[o];O=e[t];u=d[O]for e=O+1,e[N]do u=u..d[e];end;d[e[h]]=u;o=o+n;e=r[o];a={d,e};a[x][a[i][U]]=a[n][a[i][C]]+a[x][a[i][k]];o=o+n;e=r[o];d[e[b]]=d[e[k]]%e[j];break end;break;end break;end break;end break;end break;end while 2095==(l)/((0x1f0b-(-0x66+4106)))do l=(6858720)while(-60+(389-0xfe))>=a do l-= l l=(688788)while(0x75+-48)>=a do l-= l l=(2696000)while(6336/0x60)>=a do l-= l l=(7738080)while a>(2145/0x21)do l-= l d[e[u]]=e[k];break end while(l)/((4028-0x806))==3920 do if(d[e[b]]~=d[e[g]])then o=o+x;else o=e[c];end;break end;break;end while 1348==(l)/((0xff3-2083))do l=(15765477)while a<=((356-0xe8)+-0x39)do l-= l f[e[k]]=d[e[M]];o=o+n;e=r[o];d[e[h]]={};o=o+n;e=r[o];d[e[_]]={};o=o+n;e=r[o];f[e[D]]=d[e[b]];o=o+n;e=r[o];d[e[h]]=f[e[O]];o=o+n;e=r[o];if(d[e[U]]==e[L])then o=o+x;else o=e[w];end;break;end while(l)/(((-124+0xdcb5b)/0xe7))==4029 do l=(445456)while a>(13124/0xc1)do l-= l if d[e[U]]then o=o+n;else o=e[O];end;break end while(l)/(((1022472/0xc6)-2633))==176 do d[e[h]]=d[e[D]]%e[g];break end;break;end break;end break;end while 361==(l)/((3844-0x790))do l=(14690865)while(171+-0x63)>=a do l-= l l=(2924606)while a<=(-92+0xa2)do l-= l if(d[e[U]]==d[e[N]])then o=o+x;else o=e[O];end;break;end while 2141==(l)/((1426+-0x3c))do l=(701974)while a>(-0x7f+198)do l-= l local l;d[e[b]]=f[e[w]];o=o+n;e=r[o];d[e[_]]=f[e[O]];o=o+n;e=r[o];d[e[U]]=e[c];o=o+n;e=r[o];d[e[h]]=e[k];o=o+n;e=r[o];d[e[h]]=e[c];o=o+n;e=r[o];l=e[b]d[l]=d[l](P(d,l+n,e[t]))o=o+n;e=r[o];d[e[U]]=d[e[t]][d[e[C]]];o=o+n;e=r[o];l=e[U]d[l]=d[l](d[l+x])o=o+n;e=r[o];d[e[u]]=d[e[w]];o=o+n;e=r[o];o=e[t];break end while 754==(l)/((0x77c-985))do if(d[e[u]]==e[g])then o=o+x;else o=e[k];end;break end;break;end break;end while(l)/((7644-0xf03))==3865 do l=(1388278)while(0x102-185)>=a do l-= l local l=e[u];local a=d[l+2];local n=d[l]+a;d[l]=n;if(a>0)then if(n<=d[l+1])then o=e[D];d[l+3]=n;end elseif(n>=d[l+1])then o=e[O];d[l+3]=n;end break;end while 1306==(l)/((0x5733/21))do l=(7666852)while(6808/0x5c)<a do l-= l local l=e[u];local n=d[l]local a=d[l+2];if(a>0)then if(n>d[l+1])then o=e[c];else d[l+3]=n;end elseif(n<d[l+1])then o=e[O];else d[l+3]=n;end break end while(l)/((267722/0x5b))==2606 do local e=e[h]d[e]=d[e](P(d,e+n,s))break end;break;end break;end break;end break;end while(l)/((3581-0x71d))==3897 do l=(127820)while(-0x28+120)>=a do l-= l l=(6689331)while a<=(16324/0xd4)do l-= l l=(2350208)while(0x2a28/142)<a do l-= l local l=e[M]d[l]=d[l](P(d,l+n,e[D]))break end while 688==(l)/((0x1ad8-3456))do d[e[h]]=f[e[k]];break end;break;end while(l)/(((0x13be+-43)-0x9fe))==2727 do l=(251706)while(-80+0x9e)>=a do l-= l local a=p[e[O]];local n;local l={};n=Q({},{__index=function(o,e)local e=l[e];return e[1][e[2]];end,__newindex=function(d,e,o)local e=l[e]e[1][e[2]]=o;end;});for n=1,e[j]do o=o+x;local e=r[o];if e[(53-0x34)]==50 then l[n-1]={d,e[c]};else l[n-1]={B,e[k]};end;m[#m+1]=l;end;d[e[U]]=v(a,n,f);break;end while 3227==(l)/((2808/0x24))do l=(834275)while(-111+0xbe)<a do l-= l B[e[t]]=d[e[h]];break end while 1105==(l)/((0x60f-796))do d[e[h]]=(e[t]~=0);break end;break;end break;end break;end while(l)/((-33+0x1c0))==308 do l=(4165668)while a<=(18592/0xe0)do l-= l l=(2072406)while(0xb9-104)>=a do l-= l d[e[h]]=B[e[D]];break;end while 2058==(l)/((0x2df95/187))do l=(14003648)while a>(0x7f+(-6255/0x8b))do l-= l if d[e[u]]then o=o+n;else o=e[w];end;break end while 3587==(l)/((-0x27+3943))do d[e[b]]=B[e[t]];o=o+n;e=r[o];d[e[h]]=#d[e[w]];o=o+n;e=r[o];B[e[w]]=d[e[U]];o=o+n;e=r[o];d[e[b]]=B[e[c]];o=o+n;e=r[o];d[e[h]]=#d[e[k]];o=o+n;e=r[o];B[e[w]]=d[e[b]];o=o+n;e=r[o];do return end;break end;break;end break;end while 3588==(l)/((0x4e3+-90))do l=(5593189)while a<=(13524/0xa1)do l-= l d[e[h]]={};break;end while(l)/((0x9a5+-110))==2371 do l=(514491)while a>(0xcd-120)do l-= l d[e[u]]=B[e[O]];break end while 951==(l)/((0x244+-39))do if(d[e[M]]==e[C])then o=o+x;else o=e[w];end;break end;break;end break;end break;end break;end break;end break;end o+= x end;end);end;return v(A(),{},H())()end)_msec({[(182+-0x37)]='\115\116'..(function(e)return(e and'حز؃ندحڪسئجؠض')or'\114\105'or'\120\58'end)((0x7f-122)==(-53+0x3b))..'\110g',["؃دآنټدڪضدؠ؃ڪقؠدك"]='\108\100'..(function(e)return(e and'ئ؃ئڝآنؠز')or'\101\120'or'\119\111'end)((-0x36+59)==(0x89-131))..'\112',["سڪئددئدضنئنكقسحټ؃زؠ"]=(function(e)return(e and'ضندئجټټڪكضضجآآدن')and'\98\121'or'\100\120'end)((0x5b-86)==(136-0x83))..'\116\101',["زجضڝآسڝنڝججضق"]='\99'..(function(e)return(e and'ضڪټدزكڝسحؠقټڪك')and'\90\19\157'or'\104\97'end)((0x89-132)==(127+-0x7c))..'\114',[(0x29d+-78)]='\116\97'..(function(e)return(e and'قنقجآجټنقآڪآدج')and'\64\113'or'\98\108'end)((870/0x91)==(0x7d+-120))..'\101',["ڝدنټحڪآآؠآكضض"]=(function(e)return(e and'ضدكسكئؠدححآڝټضحنج')or'\115\117'or'\78\107'end)((46-0x2b)==((0x156-215)+-0x60))..'\98',["ددسڪحكزآئؠدنڪؠسؠ"]='\99\111'..(function(e)return(e and'ڝضئزسحؠكټجضؠؠقؠآ')and'\110\99'or'\110\105\103\97'end)((0x22e/18)==(6882/0xde))..'\97\116',[(-0x35+665)]=(function(e,l)return(e and'ټئجآڝڝڝح')and'\48\159\158\188\10'or'\109\97'end)((0x67-98)==(0x6f-105))..'\116\104',[(-61+(2890-0x5e0))]=(function(e,l)return((0x2a8/136)==(0x44-65)and'\48'..'\195'or e..((not'\20\95\69'and'\90'..'\180'or l)))or'\199\203\95'end),["نسسټڪضسدسجڪض"]='\105\110'..(function(e,l)return(e and'ؠټسكآك؃؃')and'\90\115\138\115\15'or'\115\101'end)((-0x68+109)==(0x8f-112))..'\114\116',["كڪنجنجكنجسجسنڝ"]='\117\110'..(function(e,l)return(e and'ق؃دټكنټحسڝقټسضنټڝ')or'\112\97'or'\20\38\154'end)((-0x42+71)==(-0x36+85))..'\99\107',["ضح؃جسضضئئدئئنآؠئزڪ"]='\115\101'..(function(e)return(e and'ككسحآئآجڝجټحضئڝجس')and'\110\112\99\104'or'\108\101'end)((0x235/113)==(99+-0x44))..'\99\116',["ؠدحس؃ټڝؠدآقئجڝحڝڝئ"]='\116\111\110'..(function(e,l)return(e and'ججئحڪئ؃جټكجكسئ؃سجټ')and'\117\109\98'or'\100\97\120\122'end)((-120+0x7d)==(73+-0x44))..'\101\114'},{["آدئك؃كنحټنحض؃قڝ"]=((getfenv))},((getfenv))()) end)()
+local me = ps.LocalPlayer
+local myBackpack = me:WaitForChild("Backpack")
+local myScreenGui = me:WaitForChild("PlayerGui")
 
+local gearIds = {68539623, 535104095, 65469908, 63253718, 83704165, 169602103}
+local gearNames = {"KorbloxSwordAndShield", "NeonNinjaSword", "SkullCracker", "SkullMace", "Icedagger"}
+local selectedGear = "KorbloxSwordAndShield"
 
+local quickSelectGearIds = {139577901, 1074738432, 93136746, 209980135, 93725362, 236442380}
+local quickSelectGearNames = {"FestivePeriastron", "GiganticBatWings", "TelamonsterTheChaosEdge", "NinjaSmokeBomb", "Sword of the Behemoth", "GearRecycler"}
+
+local on = false
+local killOnJoin = false
+local killOnJoinList = {}
+local offset = Vector3.new(1.5, 1, -1.8)
+
+for i,v in pairs(gearIds) do
+	rst.Remotes.ToggleAsset:InvokeServer(gearIds[i])
+end
+
+----------------------------------------------------------------
+local mainGui = Instance.new("ScreenGui")
+mainGui.Name = "Kill Gui"
+mainGui.ResetOnSpawn = true
+mainGui.Parent = myScreenGui
+
+local mainFrame = Instance.new("Frame")
+mainFrame.Name = "Main Frame"
+mainFrame.AnchorPoint = Vector2.new(.5, .5)
+mainFrame.BackgroundTransparency = .3
+mainFrame.BorderSizePixel = 0
+mainFrame.Position = UDim2.new(.5, 0, .8, 0)
+mainFrame.Size = UDim2.new(.5, 0, 0, 100)
+mainFrame.Parent = mainGui
+
+local playerListFrame = Instance.new("Frame")
+playerListFrame.Name = "Players"
+playerListFrame.AnchorPoint = Vector2.new(0, .5)
+playerListFrame.BackgroundTransparency = 1
+playerListFrame.Position = UDim2.new(0, 0, .25, 0)
+playerListFrame.Size = UDim2.new(.8, 0, .5, 0)
+playerListFrame.Parent = mainFrame
+local uiListLayout = Instance.new("UIListLayout")
+uiListLayout.FillDirection = Enum.FillDirection.Horizontal
+uiListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+uiListLayout.Parent = playerListFrame
+
+local weaponOptionsFrame = Instance.new("Frame")
+weaponOptionsFrame.Name = "Weapon Options"
+weaponOptionsFrame.AnchorPoint = Vector2.new(0, .5)
+weaponOptionsFrame.BackgroundTransparency = 1
+weaponOptionsFrame.Position = UDim2.new(0, 0, .75, 0)
+weaponOptionsFrame.Size = UDim2.new(.8, 0, .5, 0)
+weaponOptionsFrame.Parent = mainFrame
+local uiListLayout = Instance.new("UIListLayout")
+uiListLayout.FillDirection = Enum.FillDirection.Horizontal
+uiListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+uiListLayout.Parent = weaponOptionsFrame
+
+local quickGearsFrame = weaponOptionsFrame:Clone()
+quickGearsFrame.Name = "Quick Gears Frame"
+quickGearsFrame.BackgroundTransparency = 0.5
+quickGearsFrame.AnchorPoint = Vector2.new(0, 1)
+quickGearsFrame.Position = UDim2.new(0, 0, 1.3, 0)
+quickGearsFrame.Size = UDim2.new(1, 0, .3, 0)
+quickGearsFrame.Parent = mainFrame
+
+local settingsFrame = Instance.new("Frame")
+settingsFrame.Name = "Settings"
+settingsFrame.AnchorPoint = Vector2.new(1, .5)
+settingsFrame.BackgroundTransparency = 1
+settingsFrame.Position = UDim2.new(1, 0, .5, 0)
+settingsFrame.Size = UDim2.new(.2, 0, 1, 0)
+settingsFrame.Parent = mainFrame
+local teleportButton = Instance.new("TextButton")
+teleportButton.Name = "Teleport"
+teleportButton.BackgroundTransparency = .5
+teleportButton.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+teleportButton.Position = UDim2.new(0, 0, .5, 0)
+teleportButton.Size = UDim2.new(.333, 0, .5, 0)
+teleportButton.BorderSizePixel = 0
+teleportButton.Font = Enum.Font.Gotham
+teleportButton.TextScaled = true
+teleportButton.Text = "X Teleport X"
+teleportButton.Parent = settingsFrame
+local cleanButton = teleportButton:Clone()
+cleanButton.Text = "Clean"
+cleanButton.Name = "Clean"
+cleanButton.BackgroundColor3 = Color3.fromRGB(255, 85, 127)
+cleanButton.Position = UDim2.new(.333, 0, .5, 0)
+cleanButton.Parent = settingsFrame
+local onButton = teleportButton:Clone()
+onButton.Text = "On"
+onButton.Name = "On"
+onButton.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+onButton.Position = UDim2.new(0, 0, 0, 0)
+onButton.Parent = settingsFrame
+local offButton = teleportButton:Clone()
+offButton.Text = "Off"
+offButton.Name = "Off"
+offButton.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+offButton.Position = UDim2.new(.333, 0, 0, 0)
+offButton.Parent = settingsFrame
+local unblindButton = teleportButton:Clone()
+unblindButton.Text = "Unblind"
+unblindButton.Name = "Unblind"
+unblindButton.BackgroundColor3 = Color3.fromRGB(0, 170, 255)
+unblindButton.Position = UDim2.new(0.666, 0, 0.5, 0)
+unblindButton.Parent = settingsFrame
+local killOnJoinButton = teleportButton:Clone()
+killOnJoinButton.Text = "Kill OFF Join"
+killOnJoinButton.Name = "Kill On Join"
+killOnJoinButton.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+killOnJoinButton.Position = UDim2.new(0.666, 0, 0, 0)
+killOnJoinButton.Parent = settingsFrame
+
+local playerListButton = Instance.new("TextButton")
+playerListButton.BackgroundTransparency = .5
+playerListButton.Size = UDim2.new(.111, 0, 1, 0)
+playerListButton.TextScaled = true
+playerListButton.Font = Enum.Font.GothamBold
+local playerListEnabled = Instance.new("BoolValue")
+playerListEnabled.Name = "Enabled"
+playerListEnabled.Parent = playerListButton
+
+local weaponOptionButton = Instance.new("TextButton")
+weaponOptionButton.BackgroundTransparency = .5
+weaponOptionButton.BackgroundColor3 = Color3.fromRGB()
+weaponOptionButton.TextScaled = true
+weaponOptionButton.Font = Enum.Font.GothamBlack
+
+for i = 1,#gearNames do
+	local weaponButton = weaponOptionButton:Clone()
+	weaponButton.Name = gearNames[i]
+	weaponButton.Text = gearNames[i]
+	weaponButton.Size = UDim2.new(1/#gearNames, 0, 1, 0)
+	weaponButton.Parent = weaponOptionsFrame
+	
+	weaponButton.Activated:Connect(function()
+		selectedGear = gearNames[i]
+		weaponButton.BackgroundColor3 = Color3.fromRGB(1, 74, 0)
+		for i,v in pairs(weaponOptionsFrame:GetChildren()) do
+			if v:IsA("TextButton") and v ~= weaponButton then
+				v.BackgroundColor3 = Color3.fromRGB()
+			end
+		end
+	end)
+end
+weaponOptionsFrame["KorbloxSwordAndShield"].BackgroundColor3 = Color3.fromRGB(1, 74, 0)
+
+for i = 1,#quickSelectGearNames do
+	local quickWeaponButton = weaponOptionButton:Clone()
+	quickWeaponButton.Name = quickSelectGearNames[i]
+	quickWeaponButton.Text = quickSelectGearNames[i]
+	quickWeaponButton.Size = UDim2.new(1/#quickSelectGearNames, 0, 1, 0)
+	quickWeaponButton.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+	quickWeaponButton.Parent = quickGearsFrame
+	
+	quickWeaponButton.Activated:Connect(function()
+		if not (myBackpack:FindFirstChild(quickSelectGearNames[i]) or workspace[me.Name]:FindFirstChild(quickSelectGearNames[i])) then
+			rst.Remotes.ToggleAsset:InvokeServer(quickSelectGearIds[i])
+		else
+			for e = 1,2 do
+				rst.Remotes.ToggleAsset:InvokeServer(quickSelectGearIds[i])
+			end
+		end
+	end)
+end
+
+----------------------------------------------------------------
+
+local platform = Instance.new("Part")
+platform.Name = "Platform"
+platform.Anchored = true
+platform.Size = Vector3.new(50, 3, 50)
+platform.Transparency = .3
+platform.Position = Vector3.new(11111,511105,11111)
+platform.Parent = workspace
+
+----------------------------------------------------------------
+
+function updatePlayerButtonSize()
+	local numberOfPlayers = (#ps:GetPlayers())-1
+	
+	for i,v in pairs(playerListFrame:GetChildren()) do
+		if v:IsA("TextButton") then
+			v.Size = UDim2.new(1/numberOfPlayers, 0, 1, 0)
+		end
+	end
+end
+
+ps.PlayerAdded:Connect(function(plr)
+	local name = plr.Name
+	
+	local playerButton = playerListButton:Clone()
+	playerButton.Name = name
+	playerButton.Text = name
+	playerButton.Parent = playerListFrame
+	
+	updatePlayerButtonSize()
+	
+	local num = math.random(135, 255)
+	playerButton.BackgroundColor3 = Color3.fromRGB(num, num, num)
+	
+	local enabled = playerButton.Enabled
+	if killOnJoin == true then
+		enabled.Value = true
+		playerButton.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+	end
+	for i,v in pairs(killOnJoinList) do
+		if name == v then
+			enabled.Value = true
+			playerButton.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+			break
+		end
+	end
+	
+	playerButton.Activated:Connect(function()
+		if enabled.Value == false then
+			enabled.Value = true
+			table.insert(killOnJoinList, name)
+			playerButton.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+		else
+			enabled.Value = false
+			for i = 1,#killOnJoinList do
+				if name == killOnJoinList[i] then
+					table.remove(killOnJoinList, i)
+					break
+				end
+			end
+			playerButton.BackgroundColor3 = Color3.fromRGB(num, num, num)
+		end
+	end)
+	
+end)
+
+ps.PlayerRemoving:Connect(function(plr)
+	local name = plr.Name
+	
+	for i,v in pairs(playerListFrame:GetChildren()) do
+		if v.Name == tostring(name) then
+			v:Destroy()
+		end
+	end
+	
+	updatePlayerButtonSize()
+end)
+
+local numberOfPlayers = (#ps:GetPlayers())-1
+for i,v in pairs(ps:GetPlayers()) do
+	if v ~= me then
+		local name = v.Name
+		
+		local playerButton = playerListButton:Clone()
+		playerButton.Name = name
+		playerButton.Text = name
+		playerButton.Size = UDim2.new(1/numberOfPlayers, 0, 1, 0)
+		playerButton.Parent = playerListFrame
+		local enabled = playerButton.Enabled
+		
+		local num = math.random(135, 255)
+		playerButton.BackgroundColor3 = Color3.fromRGB(num, num, num)
+		
+		playerButton.Activated:Connect(function()
+			if enabled.Value == false then
+				enabled.Value = true
+				table.insert(killOnJoinList, name)
+				playerButton.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+			else
+				enabled.Value = false
+				for i = 1,#killOnJoinList do
+					if name == killOnJoinList[i] then
+						table.remove(killOnJoinList, i)
+						break
+					end
+				end
+				playerButton.BackgroundColor3 = Color3.fromRGB(num, num, num)
+			end
+		end)
+	end
+end
+
+----------------------------------------------------------------
+
+teleportButton.Activated:Connect(function()
+	local myChar = me.Character or me.CharacterAdded:Wait()
+	
+	if teleportButton.Text == "X Teleport X" then
+		teleportButton.Text = "V Teleport V"
+		
+		repeat
+			pcall(function()
+				rs.RenderStepped:Wait()
+				myChar:SetPrimaryPartCFrame(CFrame.new(11111,511111,11111))
+			end)
+		until teleportButton.Text == "X Teleport X"
+	else
+		teleportButton.Text = "X Teleport X"
+	end
+end)
+
+function clean()
+	for i,v in pairs(workspace:GetChildren()) do
+		local hum = v:FindFirstChild("Humanoid")
+		if hum and hum.Parent.Name ~= me.Name then
+			if hum.Health <= 0 then
+				v:Destroy()
+			else
+				for i,bodyPart in pairs(hum.Parent:GetChildren()) do
+					if bodyPart:IsA("BasePart") then
+						bodyPart.Anchored = false
+					end
+				end
+			end
+		end
+	end
+end
+
+cleanButton.Activated:Connect(function()
+	clean()
+end)
+
+onButton.Activated:Connect(function()
+	on = true
+end)
+
+offButton.Activated:Connect(function()
+	on = false
+end)
+
+killOnJoinButton.Activated:Connect(function()
+	if killOnJoin == false then
+		killOnJoin = true
+		killOnJoinButton.Text = "Kill ON Join"
+	else
+		killOnJoin = false
+		killOnJoinButton.Text = "Kill OFF Join"
+	end
+end)
+
+unblindButton.Activated:Connect(function()
+	for i,v in pairs(game.Players.LocalPlayer.PlayerGui:GetChildren()) do
+		if v.Name == "ScreenGui" or v.Name == "DarknessGui" then
+			v:Destroy()
+		end
+	end
+end)
+
+----------------------------------------------------------------
+
+while true do
+	wait()
+	if on == true then
+		local suc, er = pcall(function()
+			local myBackpack = me.Backpack
+			local playersNamesToAttack = {}
+			local myTorso = me.Character:FindFirstChild("Torso") or me.Character:FindFirstChild("UpperTorso")
+			local myHumanoid = me.Character:FindFirstChild("Humanoid")
+			
+			for i,button in pairs(playerListFrame:GetChildren()) do
+				for i,enabled in pairs(button:GetChildren()) do
+					if enabled and enabled.Value == true then
+						table.insert(playersNamesToAttack, button.Name)
+					end
+				end
+			end
+			if myHumanoid and myHumanoid.Health > 0 then
+				for i,plr in pairs(ps:GetPlayers()) do
+					for i,targetName in pairs(playersNamesToAttack) do
+						if plr.Name == targetName then
+							local targetPlayer = plr
+							local targetCharacter = plr.Character
+							
+							if targetCharacter and targetCharacter.Parent ~= nil then
+								for i,v in pairs(targetCharacter:GetChildren()) do
+									if v:IsA("Tool") then
+										v:Destroy()
+									elseif v:IsA("BasePart") then
+										v.Anchored = true
+										v.CFrame = myTorso.CFrame * CFrame.new(offset)
+									end
+								end
+							end
+							
+							break
+						end
+					end
+				end
+			end
+			
+			if myHumanoid then
+				if myHumanoid.Health > 0 then
+					local tool = myBackpack:FindFirstChild(selectedGear)
+					if tool then
+						tool.Parent = myTorso.Parent
+					end
+				else
+					clean()
+					local rocketJumper = myBackpack:FindFirstChild("RocketJumper") or myHumanoid.Parent:FindFirstChild("RocketJumper")
+					if rocketJumper then
+						rocketJumper.Parent = myHumanoid.Parent
+						for i,plr in pairs(ps:GetPlayers()) do
+							for i,targetName in pairs(playersNamesToAttack) do
+								if plr.Name == targetName then
+									local targetPlayer = plr
+									local targetCharacter = plr.Character
+									
+									if targetCharacter and targetCharacter.Parent ~= nil then
+										local targetCharacterTorso = targetCharacter:FindFirstChild("Torso") or targetCharacter:FindFirstChild("UpperTorso")
+										if targetCharacterTorso then
+											local args = {targetCharacterTorso.Position, Vector3.new(targetCharacterTorso.Position.X+.1, targetCharacterTorso.Position.Y+.1, targetCharacterTorso.Position.Z+.1)}
+											rocketJumper.FireRocket:FireServer(unpack(args))
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+			
+		end)
+		if not suc then print("Error: ", er) end
+	end
+	if (not mainGui) or mainGui.Parent == nil then break end
+end
